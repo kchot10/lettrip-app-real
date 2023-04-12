@@ -25,7 +25,7 @@ public class CheckData_Email extends AsyncTask<String,Void,String> { // 통신�
 
         String postParameters ="email="+email;
 
-
+        //
 
         try{ // HttpURLConnection 클래스를 사용하여 POST 방식으로 데이터를 전송한다.
             URL url = new URL(serverURL); //주소가 저장된 변수를 이곳에 입력한다.
